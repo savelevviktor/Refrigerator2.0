@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Запустить холодильник",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "refrigerator.main",
+            "cwd": "${workspaceFolder}",
+            "env": { "PYTHONPATH": "${workspaceFolder}/src" }
+        }
+    ]
+}
